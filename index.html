@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    *{
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+    }
+    main{
+      display: flex;
+      flex-direction: column;
+      place-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      /* font-size: 1.8; */
+      background-color: hsl(217, 54%, 11%);
+      line-height: 2;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      place-items: center;
+      width: 18rem;
+
+      background-color: hsl(216, 50%, 16%);
+      border-radius: 12px;
+      padding: 1.5em;
+    }
+    img{
+      border-radius: 8px;
+      
+    }
+    h1{
+      font-weight: 600;
+      color: hsl(0, 0%, 100%);
+    }
+    p{
+      line-height: 1.4;
+      font-weight: 400;
+      color: hsl(215, 51%, 70%);
+    }
+    #clock_ethereum{
+      display: flex;
+      justify-content: space-between;
+      padding: 1em 0 1em 0;
+      
+    }
+    #eth_container{
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      color:hsl(178, 100%, 50%);
+    }
+    #coin{
+      margin-left: 6px;
+    }
+    #clock{
+      color: hsl(215, 51%, 70%);
+      margin-left: 6px;
+    }
+    #clock_container{
+      display: flex;
+      align-items: center;
+    }
+    hr{
+      /* color:hsl(215, 32%, 27%); */
+    }
+    #profile_info{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 1rem;
+    }
+    #avatar{
+      margin-right: 20px;
+      border: 2px solid hsl(0, 0%, 100%);
+      border-radius: 50%;
+      width: 2rem;
+    }
+    #info{
+      color: hsl(215, 51%, 70%);
+      font-weight: 400;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- main state start -->
+  <main>
+    <!-- container state start -->
+    <div class="container">
+      <div id="image">
+        <img src="./images/image-equilibrium.jpg" alt="" width="100%">
+      </div>
+
+      <div id="text">
+        <h1>Equilibrium #3429</h1>
+        <p> Our Equilibrium collection promotes balance and calm.</p>
+
+        <div id="clock_ethereum">
+          <div id="eth_container">
+            <img src="./images/icon-ethereum.svg" alt=""> 
+            <span id="coin">  0.041 ETH</span>
+          </div>
+          <div id="clock_container">
+            <img src="./images/icon-clock.svg" alt=""> 
+            <span id="clock">3 days left</span>
+          </div>
+        </div>
+        <hr>
+        <div id="profile_info">
+          <img src="./images/image-avatar.png" alt="" id="avatar">
+          <span id="info"> Creation of Jules Wyvern </span>
+        </div>
+      </div>
+    </div>
+    <!-- container state end -->
+  </main>
+  <!-- main state end -->
+
+  <!-- footer state start -->
+  <footer>
+    <!-- challenge info state start -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <!-- challenge info state end -->
+  </footer>
+  <!-- footer state end -->
+</body>
+
+</html>

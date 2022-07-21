@@ -1,9 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+* {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* font-size: 1.8; */
+    background-color: hsl(217, 54%, 11%);
+    line-height: 2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    width: 17rem;
+
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    padding: 1.2em;
+}
+
+#image{
+    position: relative;
+}
+#image img {
+    border-radius: 8px;
+}
+
+#overlay {
+    position:absolute;
+    width: 100%;
+    height: 96%;
+    z-index: 10;
+    border-radius: 8px;
+    
+}
+#overlay:hover{
+    opacity:0.5;
+     background-color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    
+}
+
+#text{
+    line-height: 3;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+ }
+
+p {
+    line-height: 1.4;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.6;
+}
+
+#clock_ethereum {
+    display: flex;
+    justify-content: space-between;
+    line-height:3.2;
+
+}
+
+#eth_container {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+}
+
+#coin {
+    margin-left: 6px;
+    color: hsl(178, 100%, 50%);
+}
+
+#clock {
+    color: hsl(215, 51%, 70%);
+    margin-left: 6px;
+}
+
+#clock_container {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+#line {
+    border-bottom:1px solid hsl(215, 32%, 27%);
+}
+
+#profile_info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0.8rem;
+}
+
+#avatar {
+    margin-right: 20px;
+    border: 1.8px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 1.6rem;
+}
+
+#info {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+ #name_info {
+    color: hsl(0, 0%, 100%);
+}
+#name_info:hover{
+   color: hsl(178, 100%, 50%);
+   cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
 .attribution a {
-     color: hsl(228, 45%, 44%); 
-    }
+    color: hsl(228, 45%, 44%);
+}

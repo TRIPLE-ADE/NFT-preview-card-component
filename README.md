@@ -75,6 +75,6 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Website - [Tiple](https://triple-ade.github.io/NFT-preview-card-component/)
+- Website - [Triple](https://triple-ade.github.io/NFT-preview-card-component/)
 - Frontend Mentor - [@TRIPLE-ADE](https://www.frontendmentor.io/profile/TRIPLE-ADE)
 - Twitter - [@Triple123A](https://www.twitter.com/Triple123A)

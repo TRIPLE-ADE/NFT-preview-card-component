@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/TRIPLE-ADE/NFT-preview-card-component)
+- Live Site URL: [Add live site URL here](https://triple-ade.github.io/NFT-preview-card-component/)
 
 ## My process
 
@@ -57,9 +57,11 @@ To see how you can add code snippets, see below:
     border-radius: 8px;
     
 }
+#overlay:hover #eye-icon{
+    visibility: visible;
+}
 #overlay:hover{
-    opacity:0.5;
-     background-color: hsl(178, 100%, 50%);
+    background-color: rgba(0, 255, 247, 0.5);
     cursor: pointer;
     
 }
@@ -73,6 +75,6 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Tiple](https://triple-ade.github.io/NFT-preview-card-component/)
 - Frontend Mentor - [@TRIPLE-ADE](https://www.frontendmentor.io/profile/TRIPLE-ADE)
 - Twitter - [@Triple123A](https://www.twitter.com/Triple123A)
